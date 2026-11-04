@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 工具與 Prompt 筆記庫</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                    <i class="fa-solid font-bold fa-brain"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-xl text-slate-800">AI Knowledge Base</h1>
+                    <p class="text-xs text-slate-500">提示詞工程與 AI 工具實戰筆記庫</p>
+                </div>
+            </div>
+            <a href="https://github.com" target="_blank" class="text-slate-600 hover:text-indigo-600 transition">
+                <i class="fa-brands fa-github text-2xl"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-6xl mx-auto px-4 py-8 flex-grow w-full">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-800 mb-2">知識庫主題目錄</h2>
+            <p class="text-slate-600">挑選下方主題探索 AI Prompt 與應用開發技巧。</p>
+        </section>
+
+        <!-- Card Grid Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Card Item 1 -->
+            <a href="pages/prompt-basics.html" class="block bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-1 transition-all duration-200">
+                <div class="flex items-center justify-between mb-3">
+                    <span class="px-2.5 py-1 text-xs font-medium text-indigo-600 bg-indigo-50 rounded-full">Prompt 基礎</span>
+                    <span class="text-xs text-slate-400">2026-11-04</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-800 mb-2">Prompt 提示詞設計基本原則</h3>
+                <p class="text-slate-500 text-sm line-clamp-2">學習如何給予 AI 清楚的角色設定、背景情境、任務目標與輸出格式規範。</p>
+            </a>
+            
+            <!-- Card Item 2 -->
+            <a href="pages/midjourney-prompts.html" class="block bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-1 transition-all duration-200">
+                <div class="flex items-center justify-between mb-3">
+                    <span class="px-2.5 py-1 text-xs font-medium text-indigo-600 bg-indigo-50 rounded-full">AI 繪圖</span>
+                    <span class="text-xs text-slate-400">2026-11-04</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-800 mb-2">Midjourney 提示詞高階技巧</h3>
+                <p class="text-slate-500 text-sm line-clamp-2">掌握 --ar, --stylize 等進階參數，精準控制生成圖片的風格與比例。</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-6 mt-12">
+        <div class="max-w-6xl mx-auto px-4 text-center text-xs text-slate-500">
+            <p>© 2026 AI Knowledge Base. Powered by Tailwind CSS & GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
